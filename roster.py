@@ -5,6 +5,7 @@ conn = sqlite3.connect('rosterdb.sqlite')
 cur = conn.cursor()
 
 ##sebas
+##sebas dev_task1_1
 
 cur.executescript('''
 DROP TABLE IF EXISTS User;
