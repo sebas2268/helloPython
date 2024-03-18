@@ -52,7 +52,6 @@ def lookup(track, key):
     return None
 
 for track in ofile:
-    # print(track)
     line = track.rstrip()
     spl = line.split(',')
     artist = spl[1]
