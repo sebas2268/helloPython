@@ -4,6 +4,8 @@ import sqlite3
 conn = sqlite3.connect('rosterdb.sqlite')
 cur = conn.cursor()
 
+##sebas
+
 cur.executescript('''
 DROP TABLE IF EXISTS User;
 DROP TABLE IF EXISTS Course;
